@@ -58,7 +58,7 @@ function displaytask(){
     }
     let newtask= '';
     tasklist.forEach((element, index) => {
-        newtask+= `<li> ${element} <span><img src="/level1/icons/delete.png" onclick="delete_task(${index})" id="Delete" alt="Delete"></span></li>`;
+        newtask+= `<li> ${element} <span><img src="icons/delete.png" onclick="delete_task(${index})" id="Delete" alt="Delete"></span></li>`;
     });
     display_task.innerHTML=newtask;
     inputbox.value='';
